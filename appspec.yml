@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: files/
-    destination: /webcontent 
+    destination: /webcontent/
 hooks:
   BeforeInstall:
     - location: scripts/webserver-stop.sh
