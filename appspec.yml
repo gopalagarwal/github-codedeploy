@@ -2,12 +2,4 @@ version: 0.0
 os: linux
 files:
   - source: files/
-    destination: /webcontent/
-hooks:
-  BeforeInstall:
-    - location: scripts/webserver-stop.sh
-    - location: scripts/delete-old-index.sh
-  AfterInstall:
-    - location: scripts/sleep.sh
-    - location: scripts/webserver-start.sh
- 
+    destination: /webcontent/website 
