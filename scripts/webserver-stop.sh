@@ -1,3 +1,3 @@
 #!/bin/bash
 
-rm -f /webcontent/*
+rm -rf /webcontent/*
