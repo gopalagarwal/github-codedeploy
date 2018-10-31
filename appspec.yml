@@ -1,5 +1,13 @@
 version: 0.0
 os: linux
 files:
-  - source: ./website/
-    destination: /webcontent/website 
+  - source: ./files/
+    destination: /webcontent/ 
+
+hooks:
+  BeforeInstall:
+    - location: scripts/webserver-stop.ps1 
+  AfterInstall:
+    - location: scripts/sleep.ps1 
+
+    
