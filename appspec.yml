@@ -9,5 +9,6 @@ hooks:
     - location: scripts/webserver-stop.sh
   AfterInstall:
     - location: scripts/sleep.sh
+    - location: scripts/webserver-restart.sh
 
     
