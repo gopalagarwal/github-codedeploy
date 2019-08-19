@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker-compose -f /webcontent/docker-compose.yml up -d
+#docker-compose -f /webcontent/docker-compose.yml up -d
