@@ -10,5 +10,3 @@ hooks:
   AfterInstall:
     - location: scripts/sleep.sh
     - location: scripts/webserver-restart.sh
-
-    
